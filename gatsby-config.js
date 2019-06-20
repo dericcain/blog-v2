@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Some Technical Thoughts`,
+    title: `React Talk`,
     author: `Deric Cain`,
-    description: `Javascript stuff by Deric Cain`,
-    siteUrl: `https://dericcain.com/`,
+    description: `React JS talk by Deric Cain`,
+    siteUrl: `https://reacttalk.com/`,
     social: {
       twitter: `dericcain`,
     },
@@ -57,13 +57,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Deric Cain`,
-        short_name: `Deric Cain`,
+        name: `React Talk`,
+        short_name: `React Talk`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#ba000d`,
+        theme_color: `#006db3`,
         display: `minimal-ui`,
-        // TODO: Update this icon
         icon: `content/assets/logo.png`,
       },
     },

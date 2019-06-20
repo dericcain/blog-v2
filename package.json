@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "react-talk",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "description": "A blog about React stuff",
+  "version": "2.0.0",
+  "author": "Deric Cain <deric.cain@gmail.com>",
   "dependencies": {
     "gatsby": "^2.9.4",
     "gatsby-image": "^2.1.4",
@@ -36,6 +33,7 @@
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.19",
     "typography-theme-ocean-beach": "^0.16.19",
+    "typography-theme-wordpress-2012": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {

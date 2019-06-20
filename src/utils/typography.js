@@ -1,16 +1,28 @@
 import Typography from 'typography';
-import TypeTheme from 'typography-theme-ocean-beach';
+import TypeTheme from 'typography-theme-wordpress-2012';
 
 TypeTheme.overrideThemeStyles = () => {
   return {
+    h1: {
+      color: '#006db3',
+    },
     'a.gatsby-resp-image-link': {
       boxShadow: `none`,
     },
     a: {
       textShadow: 'none',
       backgroundImage: 'none',
-      color: '#ba000d',
+      color: '#039be5',
     },
+    'a:visited': {
+      color: '#777',
+    },
+    blockquote: {
+      borderLeft: '3px solid #006db3',
+    },
+    small: {
+      color: '#888',
+    }
   };
 };
 

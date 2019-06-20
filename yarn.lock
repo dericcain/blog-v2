@@ -4587,9 +4587,9 @@ fastparse@^1.1.1:
   resolved "https://registry.yarnpkg.com/fastparse/-/fastparse-1.1.2.tgz#91728c5a5942eced8531283c79441ee4122c35a9"
   integrity sha512-483XLLxTVIwWK3QTrMGRqUfUpoOs/0hbQrl2oz4J0pAcm3A3bu84wxTFqGqkJzewCLdME38xJLJAxBABfQT8sQ==
 
-"favicons-webpack-plugin@git+https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf":
+"favicons-webpack-plugin@https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf":
   version "0.0.9"
-  resolved "git+https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf"
+  resolved "https://github.com/Creatiwity/favicons-webpack-plugin.git#0872de414061baaad0a2853c77ae75bc38b8bbbf"
   dependencies:
     core-js "^2.5.7"
     favicons "^5.1.1"
@@ -11844,6 +11844,13 @@ typography-theme-ocean-beach@^0.16.19:
   dependencies:
     gray-percentage "^2.0.0"
     typography-breakpoint-constants "^0.16.19"
+
+typography-theme-wordpress-2012@^0.16.19:
+  version "0.16.19"
+  resolved "https://registry.yarnpkg.com/typography-theme-wordpress-2012/-/typography-theme-wordpress-2012-0.16.19.tgz#f104f3054a30af63e5759b7981986e3ec1a3fea3"
+  integrity sha512-oFJPGR5sdPCVxS+sphhl+TDAul2tpVAvyGUtogcRBZSQjTawY5gXdC97qJTNgqGN+b2qJecUlqmu5HVbyxlfcg==
+  dependencies:
+    gray-percentage "^2.0.0"
 
 typography-theme-wordpress-2016@^0.16.19:
   version "0.16.19"

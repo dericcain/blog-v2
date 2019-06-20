@@ -41,7 +41,7 @@ function Bio() {
               Hey, I'm <strong>{author}</strong>. I live and work in Birmingham, AL and I help build the web one SPA at
               a time.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>You should follow me on Twitter</a>.
+              <a href={`https://twitter.com/${social.twitter}`} target="_blank">You should follow me on Twitter</a>.
             </p>
           </div>
         );
